@@ -8,7 +8,7 @@ module.exports = {
     library: 'ajs', // имя библиотеки
     libraryTarget: 'umd', // универсальный модуль (Node.js + браузер)
     libraryExport: 'default', // экспорт default
-    globalObject: 'this', // корректная работа в Node.js
+    globalObject: "typeof globalThis !== 'undefined' ? globalThis : this", // корректная работа в Node.js
   },
   module: {
     rules: [

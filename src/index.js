@@ -11,3 +11,7 @@ function info() {
 module.exports = {
   info
 };
+
+export default { 
+  info 
+};

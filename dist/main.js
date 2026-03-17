@@ -1,0 +1,1 @@
+(()=>{"use strict";module.exports={info:function(){const e=new Map;return e.set("name","ajs"),e.set("version","1.0.0"),e}}})();

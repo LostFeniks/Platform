@@ -12,7 +12,7 @@
   },
   "license": "ISC",
   "author": "toni",
-  "type": "commonjs",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,10 +26,10 @@
     "webpack-cli": "^7.0.2"
   },
   "publishConfig": {
-  "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
-  "build": "webpack --mode production"
+    "build": "webpack --mode production"
   }
 }
 
