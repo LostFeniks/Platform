@@ -24,5 +24,12 @@
     "babel-loader": "^10.1.1",
     "webpack": "^5.105.4",
     "webpack-cli": "^7.0.2"
+  },
+  "publishConfig": {
+  "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+  "build": "webpack --mode production"
   }
 }
+
