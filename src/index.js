@@ -1,10 +1,13 @@
 // src/index.js
 
-function sum(a, b) {
-  return a + b;
+function info() {
+  const m = new Map();
+  m.set('name', 'ajs');
+  m.set('version', '1.0.0');
+  return m;
 }
 
-// CommonJS экспорт, чтобы UMD-сборка работала
+// CommonJS экспорт для корректной сборки UMD
 module.exports = {
-  sum
+  info
 };
