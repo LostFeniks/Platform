@@ -1,0 +1,20 @@
+{
+  "name": "@lostfeniks/platform",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LostFeniks/Platform#readme",
+  "bugs": {
+    "url": "https://github.com/LostFeniks/Platform/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LostFeniks/Platform.git"
+  },
+  "license": "ISC",
+  "author": "toni",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
